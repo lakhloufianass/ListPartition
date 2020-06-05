@@ -4,9 +4,10 @@
 
 In order to test the project you can import the project to the IDE as a maven project and go to the Main class in com.partition and comment from the line 12 to 24 and uncomment line 25.
   > customizeTest()
-You can then play with the values and parameter as you want 😄.
+  
+You can then launch the main class as a java application and play with the values and parameter in the functiion as you want 😄.
 
-otherwise you can run the project from the command line with the following command : 
+Otherwise you can run the project from the command line with the following command : 
 
 > mvn exec:java -Dexec.mainClass="com.partition.Main"
 
